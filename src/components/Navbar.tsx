@@ -53,9 +53,9 @@ const Navbar = () => {
               <motion.div
                 whileHover={{ scale: 1.05 }}
                 transition={{ duration: 0.2 }}
-                className="w-9 h-9 rounded-xl bg-primary/15 border border-primary/25 p-1.5 overflow-hidden"
+                className="w-9 h-9 rounded-full overflow-hidden"
               >
-                <img src={xLogo} alt="X-Network logo" className="w-full h-full object-contain" />
+                <img src={xLogo} alt="X-Network logo" className="w-full h-full object-cover" />
               </motion.div>
               <span className="font-display text-base font-bold tracking-tight text-foreground">
                 X-NETWORK
