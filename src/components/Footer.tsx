@@ -40,7 +40,7 @@ const Footer = () => (
             <motion.div
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.2 }}
-              className="w-8 h-8 rounded-full overflow-hidden"
+              className="w-8 h-8 shrink-0 rounded-full overflow-hidden"
             >
               <img src={xLogo} alt="X-Network logo" className="w-full h-full object-cover" />
             </motion.div>
